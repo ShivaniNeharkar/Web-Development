@@ -1,0 +1,33 @@
+<!-- @author: Shivani Neharkar-->
+<!-- @date  : 7th January 2023 -->
+<!-- @topic : Basics of HTML Form  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h3>Simple Forms</h3>
+    <p>Name : <input type="text" name ="NameFeild"></p>
+    <p>Address: <textarea name="AddressField" id="AddressId" cols="100" rows="20"></textarea></p>
+    <fieldset>
+        <legend>Gender</legend>
+            <p> Male <input type="radio" name ="GenderFeild" id="GenderId"></p>
+            <p> Female <input type="radio" name ="GenderFeild" id="GenderId"></p>
+    </fieldset>
+    <p>Card Type:
+        <select name="cardFeild" id="CardId" >
+            <option value="">Select from below</option>
+            <option value="Visa">Visa</option> 
+            <option value="Master">Master</option> 
+            <option value="Rupay">Rupay</option> 
+        </select>
+    </p>
+    <p>Expiration date: <input type="date" name="DateFeild" id="DateId"></p>
+    <p>CVV <input type="password" name="CvvFeild" id="cvvId"></p>
+    <p>Card Number <input type="number" name="CardNumberFeild" id="CardNumberId"></p>
+</body>
+</html>
