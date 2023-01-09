@@ -1,0 +1,46 @@
+/* @author: Shivani Neharkar
+   @date  : 9th January 2023 
+   @topic : Basics of CSS Form  */
+   
+*{
+    box-sizing: border-box;
+
+}
+.body{
+    margin: 35px;
+    padding:10px;
+    font-size:17px;
+    border: 10px solid lightslategray;
+
+
+}
+.MainHeading{
+    font-size: 40px;
+    text-align: center;
+}
+.DivClass{
+    background-color:#dbf7b9;
+    margin: 5px;
+    padding:10px;
+
+}
+input[type="text"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+select,
+textarea{
+     width: 100%;
+     padding: 12px;
+     border: 1px solid lightskyblue;
+}
+
+input[type="submit"]{
+    background-color: rgb(104, 243, 104);
+    width: 100%;
+    padding: 10px;
+    
+}
+input[type="submit"]:hover{
+    background-color: rgb(58, 90, 61);
+}
